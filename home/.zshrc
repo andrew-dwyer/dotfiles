@@ -44,3 +44,5 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$PATH:$HOME/.rvm/bin:/usr/local/heroku/bin" # Add RVM to PATH for scripting
 
+#Refresh dotfiles
+homeshick --quiet refresh
